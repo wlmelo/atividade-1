@@ -1,0 +1,127 @@
+* {
+    border: 0;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+    font-family: "Segoe Ui", Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #444;
+    font-weight: normal;
+}
+
+table {
+    background-color: #FFF;
+    padding: 4px;
+    margin: 0 auto;
+    margin-top: 14px;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    box-shadow: 0px 6px 12px rgb(62 70 79 / 20%);
+}
+
+.container {
+    background-color: #FFF;
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    box-shadow: 0px 6px 12px rgb(62 70 79 / 20%);
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.msg-topo{
+    background-color: #007BC7;
+    color: white;
+    text-align: center;
+    padding: 8px 2px 2px;
+}
+
+.msg-turma{
+    background-color: #007BC7;
+    color: white;
+    text-align: center;
+    padding: 2px 2px 10px;
+}
+
+.msg-media{
+    background-color: #F9F9F9;
+    color: #007BC7;
+    text-align: center;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+.msg-aluno{
+    background-color: #FFF;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    padding: 2px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.box {
+    line-height: 22px;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 8px 0 8px;
+}
+
+.success {
+    background-color: #E6F7ED;
+    color: #06aa48;
+}
+
+.error {
+    background-color: #F9E8E7;
+    color: #c4170c;
+}
+
+td,
+th {
+    padding: 8px;
+}
+
+th {
+    font-weight: 600;
+}
+
+.bg-gray {
+    background-color: #EEE;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.close{
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
+}
+
+.footer {
+    color: #888;
+    font-weight: 300;
+}
